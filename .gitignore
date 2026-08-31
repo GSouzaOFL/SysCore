@@ -1,0 +1,25 @@
+# Arquivos de configuração com tokens
+monitores/rede/config.py
+monitores/sistema/config.py
+monitores/navegacao/config.py
+bot/config.py
+
+# Dados
+*.json
+*.txt
+!*.example
+
+# Logs
+*.log
+logs/
+
+# Python
+*.pyc
+__pycache__/
+
+# PID
+*.pid
+
+# Backup
+*.bak
+*.tmp
